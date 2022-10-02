@@ -1,0 +1,15 @@
+prog main() return null {
+
+    number int is read("Enter the number: ");
+    total int is 0 ;
+
+    for i in [1 to number]{
+
+    ~ adding all the numbers upto 'number'.
+
+        total Incas i;
+        }
+
+    write("The total is ", total,".");
+}
+a is "a"
