@@ -11,7 +11,16 @@ prog main() return null {
         }
 
     a Is a+1
-    write("The total is ", total,".");
+    write("The 'total' is ", total,".");
     img a Is 3im;
 
-}
+    flt num1 Is 1.2;
+    a.b;
+    1.a;
+    a.2;
+
+
+
+ ` adding all the numbers upto 'number' `
+ }
+ #

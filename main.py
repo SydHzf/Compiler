@@ -1,23 +1,26 @@
-import Lexer
+from Lexer import Lexer
+from Tokenizer  import Tokenizer
 #import my_parser
 
 def main():
     # Read the current flow source code test.lang and store it in variable
     content = ""
-    with open('t.lang','r') as file:
+    with open('testing.txt','r') as file:
         content = file.read()
 
     print("\n____________________________" +  "   Input   " + "____________________________\n")
     print(content)
+  
+    print("\n             ______________" +  "   LEXICAL ANALYZER   " + "_______________\n")
     
-    print("\n____________________________" +  "   Output   " + "____________________________\n")
-    #
-    #Lexer
-    #
+    print("\n____________________________" +  "   Word_Splitter   " + "____________________________\n")
+    wor = Lexer(content)
+    words = wor.word_splitter()
+    print(words)
 
-    # we call the lexer class and initailize the it with the source code
-    lex = Lexer.Lexer(content)
-    tokens = lex.tokenized()
-    return tokens
+    print("\n____________________________" +  "   Tokenized   " + "____________________________\n")
+    tok = Tokenizer(words)
+    tokens = tok.tokenizer()
+    print(tokens)
 
 main()
