@@ -3,24 +3,29 @@ prog main() return null {
     number int Is read("Enter the number: ");
     total int Is 0 ;
 
+    `sdfdsfdsaf
+    321`
+    
+    "dfsdsaf"
+ 
+    
+
     for i in [1 to number]{
 
-    ~ adding all the numbers upto 'number'.
+    ~ adding all the numbers \nupto 'number'.
 
         total Incas i;
         }
 
     a Is a+1
-    write("The 'total' is ", total,".");
+    write("The total is ", total,".");
     img a Is 3im;
 
-    flt num1 Is 1.2;
-    a.b;
-    1.a;
-    a.2;
+    datatype
+    Conditions
+    class
+    Lor
+    Land
 
 
-
- ` adding all the numbers upto 'number' `
- }
- #
+}

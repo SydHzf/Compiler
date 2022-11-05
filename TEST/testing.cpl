@@ -1,0 +1,11 @@
+str;int;flt;img;bool;null;Vect;Dict;Set;
+priv;pub;prot;
+this;
+if;orif;until;
+for;
+Is;
+catch;
+Incas;Decas;Inc;Dec;
+else;try;atlast;
+Gt;Lt;Eq;Neq;Gte;Lte;
+class;
