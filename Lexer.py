@@ -2,7 +2,7 @@ class Lexer:
     def __init__(self, source_code):
         self.source_code = source_code
     
-    def __EOF(self,index):
+    def __EOF(self,index): # End Of File
         return index == len(self.source_code)
             
     def word_splitter(self):
